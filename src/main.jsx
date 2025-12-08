@@ -11,7 +11,7 @@ import Certifications from './pages/Certifications.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/ACHEHROUR_Abdessamad/">
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/profile" element={<Profile />} />
